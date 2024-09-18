@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+.App{
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -49px;
+}
+body{
+  /* background-color: rgba(16, 17, 20, 1); */
+  background: linear-gradient(90deg, #015469 0%, #000751  100%);
+  /* background-image: linear-gradient(black rgb(51, 51, 185)); */
+  position:absolute;
+
+
+  overflow-x: hidden;
+  
+  
+}
+#logo,#components {
+  /* background-color: rgba(157, 158, 160, 1); */
+  backdrop-filter: blur(21px) saturate(182%);
+    -webkit-backdrop-filter: blur(21px) saturate(182%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+
+  margin-top: 19px;
+  border-radius: 11px;
+  height: 30px;
+  position: relative;
+}
+#lo{
+ position: relative;
+ top: 2px;
+}
+#logo{
+  padding: 10px;
+  width: 128px;
+  font-size: 20px;
+  left: 30px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+#logo:hover,#components:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+  opacity: 0.8;
+}
+
+
+
+#components{
+  width: 335px;
+  padding-top: 14px;
+  padding: 12px;
+  color: black;
+  margin-right: 44px;
+}
+a{
+  text-decoration: none;
+  color: black;
+ 
+  font-size: 20px;
+  padding-right: 70px;
+  position: absolute;
+  margin-left: 12px;
+
+}
+a:hover{
+  cursor: pointer;
+  color: blue;
+  
+  
+}
+#b{
+left: 130px;
+}
+#c{
+  right: -42px;
+}
+button{
+  width: 72px;
+  height: 38px;
+  border-radius: 11px;
+  font-size: 20px;
+  /* background-color:  rgba(157, 158, 160, 1); */
+  backdrop-filter: blur(21px) saturate(182%);
+  -webkit-backdrop-filter: blur(21px) saturate(182%);
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+button:hover{
+  background-color: white;
+  color:blue
+}
+#Login{
+  top: 24px;
+  position: relative;
+  right: 42px;
+}
+.content{
+  height: 725px;
+}
+.main{
+
+  position: absolute;
+}

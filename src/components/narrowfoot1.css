@@ -1,0 +1,35 @@
+.narrowfoot{
+    display: flex;
+    color: rgb(204, 204, 204);
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 100%;
+}
+#list1{
+    text-decoration: none;
+    list-style: none;
+    padding: 2px 21px 7px 5px;
+}
+#list1:hover{
+    
+    color: rgb(255, 255, 255);
+    scale: 1.008;
+    
+}
+.hi{color: rgb(255, 255, 255);}
+.icon1:hover,.icon2:hover,.icon3:hover{
+    cursor: pointer;
+    scale: 1.008;
+    color: rgb(255, 255, 255);
+}
+.icons{
+    display: flex;
+}
+.foot{
+    position: relative;
+  text-align: center;
+  font-size: 245px;
+  background-color: black;
+  color: #403e3e;
+  font-family: sans-serif;
+}

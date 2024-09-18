@@ -1,0 +1,8 @@
+.gradient{
+    color: white;
+    width: 100px;
+    position: relative;
+    text-align: end;
+    right: 5px;
+    border-radius: 50%;
+}

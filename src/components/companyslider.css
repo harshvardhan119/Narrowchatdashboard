@@ -1,0 +1,55 @@
+
+.cs{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+#companylogo1,#companylogo3,#companylogo5,#companylogo7{
+    opacity: 1;
+    position: relative;
+    left: 100px;
+
+    
+}
+#companylogo2,#companylogo4,#companylogo6,#companylogo8,#companylogos{
+    opacity: 1;
+    position: relative;
+    left: -99px;
+    
+}
+#companylogo1{
+    margin-left: -11PX;
+}
+#companylogo5{
+    height: 50px;
+    position: relative;
+    top: -80px;
+    left: 180px;
+}
+#companylogo7{
+    top: -20px;
+    left: 111px;
+}
+#companylogo4{
+    position: relative;
+    top: -79px;
+}
+#companylogo6{
+    position: relative;
+    top: -110px;
+}
+#companylogo8{
+    top: -66px;
+  left: -119px;
+  position: relative;
+  width: 114px;
+}
+#companylogos{
+    position: relative;
+  top: 68px;
+  left: -95px;
+}

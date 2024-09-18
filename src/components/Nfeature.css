@@ -1,0 +1,41 @@
+.c1,.c2,.c3,.c4,.c5,.c6{
+  
+background: rgba( 255, 255, 255, 0.2);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 16px;
+box-shadow: 5px 28px 50px rgba(0, 0, 0, 0.5);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 375px;
+height: 300px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+}
+.c1,.c4{
+    position: relative;
+    right: -90px;
+
+}
+.c3,.c6{
+    position: relative;
+   right: 90px;
+}
+
+
+.m1{
+    display: flex;
+    justify-content: space-around ;
+    
+   
+}
+.m2{
+    display: flex;
+    justify-content: space-around ;
+    position: relative;
+    top: 80px;
+   
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover,.c6:hover{
+    scale: 1.01;
+
+}

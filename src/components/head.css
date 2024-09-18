@@ -1,0 +1,18 @@
+body{
+    position: inherit;
+}
+
+
+
+
+.head{
+    color: #fff;
+    position: relative;
+    top: -34vh;
+    left: 100px;
+    font-size: 50px;
+    opacity: 1;
+    
+  
+
+}
